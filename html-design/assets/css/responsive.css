@@ -1,0 +1,202 @@
+@media (max-width: 1024px) {
+    .question_mark a { 
+        width: 40%;
+    }
+}
+
+/* Small Devices, Tablets */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    nav.navbar.navbar-expand-lg {
+        width: 100%;
+    }
+    
+    button.navbar-toggler {
+        background: #fff;
+    }
+    .registrationImg {
+        margin: 0 auto;
+        width: 201px;
+        margin-bottom: 30px;
+    }
+    .footer {
+        text-align: center;
+    }
+    
+    .footer p {
+        position: relative;
+        right: -74px;
+    }
+    .navigation {
+        margin: 0;
+    }
+    .registrationSection {
+        margin-top: 0;
+    }
+    .formbox.login {
+        margin-top: 0;
+    }
+
+    .question h2 {
+        font-size: 15px;
+    }
+    .question_mark a {
+      width: 100%;
+    }
+    .botol {
+        margin: 0 auto;
+        width: 250px;
+        margin-top: 170px;
+    }
+    .botol:before {
+        content: "";
+        background: url(../img/roundshape.png);
+        width: 260px;
+        height: 300px;
+        position: absolute;
+        display: block;
+        background-size: contain;
+        top: 29px;
+        background-repeat: no-repeat;
+    }
+
+    .belunbox {
+        display: none;
+    }
+    
+}
+
+/* Small Devices Potrait */
+
+@media (max-width: 767px) {
+    nav.navbar.navbar-expand-lg {
+        width: 100%;
+    }
+    
+    button.navbar-toggler {
+        background: #fff;
+    }
+    .registrationImg {
+        margin: 0 auto;
+        width: 201px;
+        margin-bottom: 30px;
+    }
+    .footer {
+        text-align: center;
+    }
+    
+    .footer p {
+        position: relative;
+        right: -74px;
+    }
+    .navigation {
+        margin: 0;
+    }
+    .registrationSection {
+        margin-top: 0;
+    }
+    .formbox.login {
+        margin-top: 0;
+    }
+
+    
+    .question h2 {
+        font-size: 15px;
+        line-height: 30px;
+        margin: 20px 0;
+    }
+    .question_mark a {
+      width: 100%;
+    }
+    .botol {
+        margin: 0 auto;
+        width: 250px;
+        margin-top: 20px;
+    }
+
+    .botol:before {
+        content: "";
+        background: url(../img/roundshape.png);
+        width: 250px;
+        height: 300px;
+        position: absolute;
+        display: block;
+        background-size: contain;
+        top: 38px;
+        background-repeat: no-repeat;
+    }
+
+    .map_img {
+        width: 200px;
+        float: unset;
+        margin: 0 auto;
+    }
+    .maprounder {
+        float: unset;
+        width: 100px;
+        margin: 20px auto;
+    }
+    .row.formbox {
+        width: 100%;
+        margin: 0;
+    }
+    .map {
+        overflow: hidden;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .belunbox {
+        display: none;
+    }
+    .winnerImg img {
+        height: auto;
+        width: 100%;
+    }
+    .winnerImg h2 {
+        margin-top: 29px;
+        font-weight: 600;
+        letter-spacing: 7px;
+        text-align: center;
+        font-size: 25px;
+        font-family: Oswald;
+    }
+
+    .winnerImg h1 { 
+        font-size: 34px;
+    }
+    .winnerbox div {
+        width: 100%;
+        float: unset;
+        text-align: center;
+    }
+    .buttons {
+        margin: 0 auto;
+    }
+    .winnerInfoOne, .winnerInfoTwo {
+        margin-top: 10px;
+    }
+    .dropdown {
+        margin: 15px 0;
+    }
+    p#demo {
+        background: #ED2428;
+        color: #fff;
+        font-weight: 700;
+        width: 300px;
+        margin: 0 auto;
+        line-height: 40px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .logoDetails {
+        padding-top: 0;
+        text-align: center;
+    }
+}
+
+/* Extra Small Devices, Phones */
+
+@media (max-width: 479px) {
+    
+}

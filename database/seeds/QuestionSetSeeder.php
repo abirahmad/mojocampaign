@@ -1,0 +1,168 @@
+<?php
+
+use App\Models\Question;
+use App\Models\QuestionOption;
+use App\Models\QuestionSet;
+use Illuminate\Database\Seeder;
+
+class QuestionSetSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        $questionSet = new QuestionSet();
+        $questionSet->title = "ক";
+        $questionSet->save();
+
+        /****************************       1        ***************/
+        $question = new Question();
+        $question->title = "মোজোর জন্মদিন বৈশাখের কত তারিখে পালিত হয়?";
+        $question->question_set_id = 1;
+        $question->save();
+
+        // Add Options
+        $questionOption = new QuestionOption();
+        $questionOption->question_id = $question->id;
+        $questionOption->value = "1st Boishakh";
+        $questionOption->is_correct = true;
+        $questionOption->save();
+
+        $questionOption = new QuestionOption();
+        $questionOption->question_id = $question->id;
+        $questionOption->value = "2nd Boishakh";
+        $questionOption->save();
+
+        $questionOption = new QuestionOption();
+        $questionOption->question_id = $question->id;
+        $questionOption->value = "1st March";
+        $questionOption->save();
+
+        $questionOption = new QuestionOption();
+        $questionOption->question_id = $question->id;
+        $questionOption->value = "2nd April";
+        $questionOption->save();
+
+
+
+        /****************************       2        ***************/
+        $question = new Question();
+        $question->title = "পহেলা বৈশাখ কত তারিখে পালিত হয়?";
+        $question->question_set_id = 1;
+        $question->save();
+
+        // Add Options
+        $questionOption = new QuestionOption();
+        $questionOption->question_id = $question->id;
+        $questionOption->value = "১ই জানুয়ারি";
+        $questionOption->save();
+
+        $questionOption = new QuestionOption();
+        $questionOption->question_id = $question->id;
+        $questionOption->value = "১৪ই এপ্রিল";
+        $questionOption->is_correct = true;
+        $questionOption->save();
+
+        $questionOption = new QuestionOption();
+        $questionOption->question_id = $question->id;
+        $questionOption->value = "২রা মার্চ";
+        $questionOption->save();
+
+        $questionOption = new QuestionOption();
+        $questionOption->question_id = $question->id;
+        $questionOption->value = "২৬ ডিসেম্বর";
+        $questionOption->save();
+
+
+
+
+        /****************************       3        ***************/
+        $question = new Question();
+        $question->title = "বাংলাদেশের স্বাধীনতা দিবস কবে?";
+        $question->question_set_id = 1;
+        $question->save();
+
+        // Add Options
+        $questionOption = new QuestionOption();
+        $questionOption->question_id = $question->id;
+        $questionOption->value = "১ই জানুয়ারি";
+        $questionOption->save();
+
+        $questionOption = new QuestionOption();
+        $questionOption->question_id = $question->id;
+        $questionOption->value = "২রা এপ্রিল";
+        $questionOption->save();
+
+        $questionOption = new QuestionOption();
+        $questionOption->question_id = $question->id;
+        $questionOption->value = "২৬শে মার্চ";
+        $questionOption->is_correct = true;
+        $questionOption->save();
+
+        $questionOption = new QuestionOption();
+        $questionOption->question_id = $question->id;
+        $questionOption->value = "১৬ ডিসেম্বর";
+        $questionOption->save();
+
+
+        /****************************       4        ***************/
+        $question = new Question();
+        $question->title = "বাংলাদেশের জাতির পিতার নাম কি?";
+        $question->question_set_id = 1;
+        $question->save();
+
+        // Add Options
+        $questionOption = new QuestionOption();
+        $questionOption->question_id = $question->id;
+        $questionOption->value = "শেখ মুজিবুর রহমান";
+        $questionOption->is_correct = true;
+        $questionOption->save();
+
+        $questionOption = new QuestionOption();
+        $questionOption->question_id = $question->id;
+        $questionOption->value = "মাওলানা ভাসানী";
+        $questionOption->is_correct = true;
+        $questionOption->save();
+
+        $questionOption = new QuestionOption();
+        $questionOption->question_id = $question->id;
+        $questionOption->value = "সোহরাও্যার্দী";
+        $questionOption->save();
+
+        $questionOption = new QuestionOption();
+        $questionOption->question_id = $question->id;
+        $questionOption->value = "জিয়াউর রহমান";
+        $questionOption->save();
+
+
+        $questionSet = new QuestionSet();
+        $questionSet->title = "খ";
+        $questionSet->save();
+        $questionSet = new QuestionSet();
+        $questionSet->title = "গ";
+        $questionSet->save();
+
+        $questionSet = new QuestionSet();
+        $questionSet->title = "ঘ";
+        $questionSet->save();
+
+        $questionSet = new QuestionSet();
+        $questionSet->title = "ঙ";
+        $questionSet->save();
+
+        $questionSet = new QuestionSet();
+        $questionSet->title = "চ";
+        $questionSet->save();
+
+        $questionSet = new QuestionSet();
+        $questionSet->title = "ছ";
+        $questionSet->save();
+
+        $questionSet = new QuestionSet();
+        $questionSet->title = "জ";
+        $questionSet->save();
+    }
+}

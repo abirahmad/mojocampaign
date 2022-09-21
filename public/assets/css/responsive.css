@@ -1,0 +1,199 @@
+@media (max-width: 1024px) {
+    .productGrid {
+        width: 75%;
+        margin: 0 auto;
+    }
+    .singleBlog {
+        width: 75%;
+        margin: 0 auto;
+    }
+    .ourProductArea button.owl-prev {
+        left: 0%;
+    }
+    .ourProductArea button.owl-next {
+        right: 0%;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .productGrid {
+        width: 75%;
+        margin: 0 auto;
+    }
+    .singleBlog {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .box {
+        margin-top: 30px;
+    }
+    .ourProductArea button.owl-prev {
+        left: 0%;
+    }
+    .ourProductArea button.owl-next {
+        right: 0%;
+    }
+    .newsEventArea button.owl-prev {
+        left: 0%;
+    }
+    .newsEventArea button.owl-next {
+        right: 0%;
+    }
+    .ourProductArea {
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .tab-style-3 .tabs {
+        width: 95%;
+        margin: 10px;
+    }
+    .tab-style-3 .tab_content {
+        width: 100%;
+        float: right;
+        margin-top: 30px;
+    }
+    .videoDetails {
+        padding: 10px;
+    }
+    .tab-style-3 .tabs a {
+        text-align: left;
+    }
+    .questionActivityDetails {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(255, 255, 255, .7);
+        width: 100%;
+        padding: 10px;
+        height: 100%;
+        border-radius: 20px;
+        margin-top: 0;
+    }
+    .questionActivityImg img {
+        border-radius: 20px;
+        width: 100%;
+    }
+}
+
+
+/* Small Devices Potrait */
+
+@media (max-width: 767px) {
+    .productGrid {
+        width: 75%;
+        margin: 0 auto;
+    }
+    .singleBlog {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .box {
+        margin-top: 30px;
+    }
+    .ourProductArea button.owl-prev {
+        left: 0%;
+    }
+    .ourProductArea button.owl-next {
+        right: 0%;
+    }
+    .newsEventArea button.owl-prev {
+        left: 0%;
+    }
+    .newsEventArea button.owl-next {
+        right: 0%;
+    }
+    .ourProductArea {
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .tab-style-3 .tabs {
+        width: 95%;
+        margin: 10px;
+    }
+    .tab-style-3 .tab_content {
+        width: 100%;
+        float: right;
+        margin-top: 30px;
+    }
+    .videoDetails {
+        padding: 10px;
+    }
+    .tab-style-3 .tabs a {
+        text-align: left;
+    }
+    .QuestionSocial a i {
+        color: #000;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #ccc;
+        text-align: center;
+        line-height: 35px;
+        border-radius: 100%;
+        margin: 0 0px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .Product_list {
+        width: 100%;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .NutritionFac {
+        width: 100%;
+        float: right;
+        margin-bottom: 20px;
+    }
+    .questionActivityDetails {
+        width: 100%;
+        left: 0;
+        margin-top: 0;
+        height: 100%;
+    }
+    .questionActivityDetails {
+        width: 100%;
+        left: 0;
+        margin-top: 0;
+        height: 100%;
+    }
+    .questionActivityImg img {
+        border-radius: 20px;
+        width: 100%;
+    }
+    .questionActivityDetails p {
+        padding: 0px;
+        color: #000000;
+        font-size: 13px;
+        font-style: italic;
+        padding-top: 0;
+    }
+    .box {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .sinlgeFeatureBox {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .buyNow {
+        position: relative;
+        top: 0;
+        z-index: 99999;
+    }
+    ul.navbar-nav.mr-auto {
+        margin-top: 20px;
+    }
+    .singleProduct {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media (max-width: 479px) {}
